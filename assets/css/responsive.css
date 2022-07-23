@@ -3,6 +3,7 @@
 
 
     /* Home + Category page */
+/* 60em = 960px */
 
 @media screen and (max-width: 60em) {
     .book-container {
