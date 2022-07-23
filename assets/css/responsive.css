@@ -1,0 +1,148 @@
+
+
+/* Mobile */
+
+
+    /* Home + Category page */
+
+@media screen and (max-width: 60em) {
+    .book-container {
+        flex-direction: column;
+    }
+
+    .copy-right p {
+        font-size: 0.8em;
+    }
+
+    .header-container {
+        width: 90%;
+    }
+
+    .category {
+        border: none;
+    }
+
+    .footer-container {
+        justify-content: center;
+    }
+
+    .header-nav-bars-btn {
+        display: block;
+    }
+    
+    .header-nav-pc {
+        display: none;
+    }
+
+    .footer-nav {
+        display: none;
+    }
+    .footer-break-bar{
+        width: 90%;
+    }
+    .footer-extra-content{
+        width: 90%;
+        justify-content: center;
+    }
+    
+}
+
+    /* Book Info Page */
+
+@media screen and (max-width: 60em) {
+    .breadcrumb {
+        text-align: center;
+    }
+    .book_img-container {
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .book_img-main {
+        margin-bottom: 2em;
+    }
+
+    .book_img-main img {
+        max-width: 100%;
+    }
+
+    .book_img-sub-container {
+        width: 100%;
+        flex-direction: row;
+        margin: 0;
+        justify-content: space-between;
+    }
+
+    .book_img-sub img{
+        margin-bottom: 1em;
+    }
+
+    .book-buy-btn {
+        margin-top: 0;
+    }
+
+    .book_info-container {
+        font-size: 10px;
+        margin: 0;
+        line-height: 40px;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+    /* Contact Page */
+
+@media screen and (max-width: 60em) {
+    .contact-container {
+        flex-direction: column;
+        margin-top: 4em;
+    }
+
+    .contact-info {
+        align-self: center;
+        width: 100%;
+        margin-bottom: 3em;
+    }
+
+    .contact-info i {
+        display: none;
+    }
+     
+    .contact-purpose {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-content,
+    .contact-note {
+        flex-direction: column;
+    }
+
+    .contact-content input {
+        padding: 8px 4px;
+    }
+
+    .contact-choose input:first-of-type {
+        margin-right: 32px;
+    }
+
+    .contact-btns {
+        flex-direction: column;
+    }
+
+    .contact-btns input:first-child {
+        margin-top: 0.75em;
+        margin-bottom: 0.5em ;
+    }
+}
+
