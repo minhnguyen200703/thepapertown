@@ -55,36 +55,10 @@ img {
 }
 
 
-/* Button */
 
-.btn-s-size {
-    min-width: 100px;
-    font-size: 1.4rem;
-    padding: 16px 0;
-    border-radius: 30px;
-    border: #000 1px solid;
-}
-
-
-
-.btn-l-size {
-    min-width: 240px;
-    font-size: 1.4rem;
-    font-weight: 600;
-    padding: 24px 0;
-    border-radius: 50px;
-}
 
 
 /* Keyframes */
-
-
-@keyframes rainbow { 
-    0%{background-position:left}
-    50%{background-position:right}
-    100%{background-position:left}
-}
-
 
 @keyframes fadeInLeft {
     from {

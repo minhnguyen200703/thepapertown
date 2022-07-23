@@ -45,6 +45,9 @@
         justify-content: center;
     }
     
+    .name {
+        margin-bottom: 2em;
+    }
 }
 
     /* Book Info Page */
