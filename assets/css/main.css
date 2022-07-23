@@ -191,6 +191,7 @@ main {
     margin: 1.5em 0.5em 2em;
     text-align: center;
     position: relative;
+    min-width: 20%;
 }
 
 .book-img {
@@ -226,7 +227,7 @@ footer {
 
 .footer-name h2{
     margin-top: 10px;
-    color: var(--title-color);
+    color: #fff;
 }
 
 .footer-logo {
@@ -245,6 +246,10 @@ footer {
 }
 
 .footer-nav-container li a{
+    color: #fff;
+}
+
+.footer-nav-container li a:hover{
     color: var(--title-color);
 }
 
